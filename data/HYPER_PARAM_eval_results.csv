@@ -1,0 +1,13 @@
+embedding_model,chunk_size,chunk_overlap,sim_top_k,long_or_short_sys_prompt,Answer Relevance,Faithfulness,Answer Semantics Similarity,Context Relevance,Number of No Answer Question
+text-embedding-3-small,512,20,2,long,0.941,0.892,0.925,0.116,0
+text-embedding-3-small,512,20,2,short,0.911,0.877,0.925,0.109,0
+text-embedding-3-small,256,10,4,long,0.946,0.881,0.924,0.075,0
+text-embedding-3-small,256,10,4,short,0.942,0.847,0.925,0.064,0
+text-embedding-3-small,128,10,8,long,0.974,0.864,0.930,0.077,0
+text-embedding-3-small,128,10,8,short,0.974,0.873,0.925,0.065,0
+BAAI/bge-small-en-v1.5,512,20,2,long,0.944,0.901,0.916,0.051,0
+BAAI/bge-small-en-v1.5,512,20,2,short,0.961,0.884,0.914,0.051,0
+BAAI/bge-small-en-v1.5,256,10,4,long,0.967,0.851,0.922,0.065,0
+BAAI/bge-small-en-v1.5,256,10,4,short,0.971,0.841,0.927,0.065,0
+BAAI/bge-small-en-v1.5,128,10,8,long,0.950,0.816,0.925,0.097,0
+BAAI/bge-small-en-v1.5,128,10,8,short,0.979,0.863,0.923,0.095,0
